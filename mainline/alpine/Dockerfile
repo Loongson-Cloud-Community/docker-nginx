@@ -3,9 +3,8 @@
 #
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
-FROM alpine:3.16
-
-LABEL maintainer="NGINX Docker Maintainers <docker-maint@nginx.com>"
+FROM cr.loongnix.cn/library/alpine:3.11
+MAINTAINER Xuhui Qiang <qiangxuhui@loongson.cn>
 
 ENV NGINX_VERSION 1.23.1
 ENV NJS_VERSION   0.7.6
